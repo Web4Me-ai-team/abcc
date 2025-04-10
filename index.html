@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="market-data-animation">
+        <div class="ticker-tape"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span class="logo-text">J<span class="accent">.</span>DOE</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#contact" class="contact-btn">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>John Doe</h1>
+                    <h2>Financial Analyst & Investment Strategist</h2>
+                    <p class="hero-bio">Driving growth through data-driven insights and strategic financial planning.</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">$500M+</span>
+                            <span class="stat-label">Managed Assets</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">25+</span>
+                            <span class="stat-label">Major Projects</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn primary">Get in Touch</a>
+                        <a href="#experience" class="btn secondary">View Experience</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="profile-symbol">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About</span>
+                <h2>Professional Profile</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm John Doe, a financial analyst and investment strategist with over 10 years of experience in the financial services industry. My expertise lies in portfolio management, risk assessment, and developing innovative financial solutions for complex business challenges.</p>
+                    <p>With a background in both traditional finance and fintech innovations, I help organizations optimize their financial operations and maximize returns while maintaining appropriate risk profiles.</p>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="card-text">
+                            <h3>Contact</h3>
+                            <p>john.doe@finance.com</p>
+                            <p>(212) 555-7890</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="card-text">
+                            <h3>Location</h3>
+                            <p>New York, NY</p>
+                            <p>Wall Street District</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="card-text">
+                            <h3>Specialization</h3>
+                            <div id="research-interests-container">
+                                <p>Investment Strategy, Risk Management, Fintech</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Experience</span>
+                <h2>Professional Journey</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="experience-grid" id="experience-container">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Senior Investment Strategist</h3>
+                        <span class="experience-date">2018 - Present</span>
+                    </div>
+                    <p class="experience-place">Goldman Sachs</p>
+                    <ul class="experience-details">
+                        <li>Lead a team of 15 analysts managing $2B+ in client assets</li>
+                        <li>Developed proprietary risk assessment models that improved portfolio performance by 12%</li>
+                        <li>Advised Fortune 500 clients on strategic financial planning and capital allocation</li>
+                        <li>Implemented AI-driven analytics platform for real-time market insights</li>
+                    </ul>
+                    <div class="techniques">
+                        <span class="technique-tag">Portfolio Management</span>
+                        <span class="technique-tag">Risk Analysis</span>
+                        <span class="technique-tag">Financial Modeling</span>
+                        <span class="technique-tag">Strategic Planning</span>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Investment Analyst</h3>
+                        <span class="experience-date">2014 - 2018</span>
+                    </div>
+                    <p class="experience-place">Morgan Stanley</p>
+                    <ul class="experience-details">
+                        <li>Conducted comprehensive financial analysis for M&A transactions exceeding $500M</li>
+                        <li>Created valuation models and due diligence reports for client acquisitions</li>
+                        <li>Developed quarterly market outlook reports for high-net-worth clients</li>
+                        <li>Collaborated with cross-functional teams to optimize investment strategies</li>
+                    </ul>
+                    <div class="techniques">
+                        <span class="technique-tag">Valuation</span>
+                        <span class="technique-tag">Due Diligence</span>
+                        <span class="technique-tag">Market Analysis</span>
+                        <span class="technique-tag">Financial Reporting</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Education</span>
+                <h2>Academic Background</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="education-timeline" id="education-container">
+                <div class="education-item">
+                    <div class="education-dot">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <h3>MBA, Finance</h3>
+                            <span class="education-date">2012 - 2014</span>
+                        </div>
+                        <div class="education-body">
+                            <p class="institution">Harvard Business School</p>
+                            <p class="field">Investment Management & Financial Analysis</p>
+                            <p class="thesis"><strong>Thesis:</strong> Impact of Algorithmic Trading on Market Volatility and Liquidity</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="education-dot">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <h3>B.S. in Economics</h3>
+                            <span class="education-date">2008 - 2012</span>
+                        </div>
+                        <div class="education-body">
+                            <p class="institution">University of Pennsylvania, Wharton School</p>
+                            <p class="field">Finance & Statistics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Projects</span>
+                <h2>Key Initiatives</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="projects-grid" id="projects-container">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Algorithmic Trading Platform</h3>
+                        <p class="project-duration">2020 - 2022</p>
+                        <p class="project-description">Developed a proprietary algorithmic trading platform that leverages machine learning to identify market inefficiencies and execute trades with minimal latency.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>AWS</span>
+                            <span>Financial APIs</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ESG Investment Framework</h3>
+                        <p class="project-duration">2019 - 2020</p>
+                        <p class="project-description">Created a comprehensive ESG (Environmental, Social, Governance) investment framework that balances financial returns with sustainable and ethical considerations.</p>
+                        <div class="project-tech">
+                            <span>Data Analysis</span>
+                            <span>Sustainability Metrics</span>
+                            <span>Risk Assessment</span>
+                            <span>Portfolio Construction</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Blockchain-Based Settlement System</h3>
+                        <p class="project-duration">2018 - 2019</p>
+                        <p class="project-description">Led the development of a blockchain-based settlement system that reduced transaction clearing time by 80% and lowered operational costs by 35%.</p>
+                        <div class="project-tech">
+                            <span>Blockchain</span>
+                            <span>Smart Contracts</span>
+                            <span>Distributed Ledger</span>
+                            <span>Financial Protocols</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Expertise</span>
+                <h2>Professional Skills</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="skills-grid" id="technical-skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="skill-name">Financial Analysis</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3 class="skill-name">Risk Management</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="skill-name">Valuation</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 92%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 class="skill-name">Portfolio Management</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 88%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="skill-name">Financial Modeling</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-name">Data Analysis</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 82%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="skill-name">Machine Learning</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 78%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="skill-name">Client Relations</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Publications</span>
+                <h2>Research & Insights</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="publications-grid" id="publications-container">
+                <div class="publication-card">
+                    <div class="publication-content">
+                        <h3 class="publication-title">The Impact of Artificial Intelligence on Financial Markets</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Journal of Financial Economics</span>
+                            <span class="publication-year">2022</span>
+                        </div>
+                        <p class="publication-authors">Doe, J., Smith, A., Johnson, B.</p>
+                        <a href="#" class="publication-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View Publication</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="publication-card">
+                    <div class="publication-content">
+                        <h3 class="publication-title">ESG Integration in Modern Portfolio Theory</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Financial Analysts Journal</span>
+                            <span class="publication-year">2021</span>
+                        </div>
+                        <p class="publication-authors">Doe, J., Williams, C., Brown, E.</p>
+                        <a href="#" class="publication-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View Publication</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="publication-card">
+                    <div class="publication-content">
+                        <h3 class="publication-title">Blockchain Technology: Transforming Financial Services</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Harvard Business Review</span>
+                            <span class="publication-year">2020</span>
+                        </div>
+                        <p class="publication-authors">Doe, J., Miller, S.</p>
+                        <a href="#" class="publication-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View Publication</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="teaching" class="alt-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Teaching</span>
+                <h2>Educational Experience</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="teaching-grid" id="teaching-container">
+                <div class="teaching-card">
+                    <div class="teaching-header">
+                        <h3>Guest Lecturer</h3>
+                        <span class="teaching-date">2019 - Present</span>
+                    </div>
+                    <p class="teaching-place">Columbia Business School</p>
+                    <div class="courses">
+                        <h4>Courses Taught:</h4>
+                        <ul>
+                            <li>Advanced Investment Strategies</li>
+                            <li>Fintech Innovations</li>
+                            <li>Quantitative Methods in Finance</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="teaching-card">
+                    <div class="teaching-header">
+                        <h3>Workshop Facilitator</h3>
+                        <span class="teaching-date">2017 - 2019</span>
+                    </div>
+                    <p class="teaching-place">New York University, Stern School of Business</p>
+                    <div class="courses">
+                        <h4>Workshops:</h4>
+                        <ul>
+                            <li>Algorithmic Trading</li>
+                            <li>Blockchain in Finance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="awards">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Recognition</span>
+                <h2>Honors & Awards</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="awards-grid" id="awards-container">
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3>Financial Analyst of the Year</h3>
+                        <p class="award-date">2022</p>
+                        <p class="award-org">Wall Street Journal</p>
+                    </div>
+                </div>
+                
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3>Innovation in Fintech Award</h3>
+                        <p class="award-date">2021</p>
+                        <p class="award-org">Financial Times</p>
+                    </div>
+                </div>
+                
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3>Top 40 Under 40 in Finance</h3>
+                        <p class="award-date">2020</p>
+                        <p class="award-org">Bloomberg</p>
+                    </div>
+                </div>
+                
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3>Excellence in Risk Management</h3>
+                        <p class="award-date">2019</p>
+                        <p class="award-org">Risk Management Association</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="alt-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2>Get In Touch</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>I'm always interested in discussing new opportunities, investment strategies, or potential collaborations. Feel free to reach out through any of the channels below.</p>
+                </div>
+                <div class="contact-methods">
+                    <a href="mailto:john.doe@finance.com" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Email</h3>
+                            <p>john.doe@finance.com</p>
+                        </div>
+                    </a>
+                    
+                    <a href="tel:+12125557890" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Phone</h3>
+                            <p>(212) 555-7890</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/johndoe" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/johndoe</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://calendly.com/johndoe" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="far fa-calendar-alt"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Schedule a Call</h3>
+                            <p>Book a 30-minute consultation</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">J<span class="accent">.</span>DOE</span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://linkedin.com/in/johndoe" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/johndoe" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/johndoe" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:john.doe@finance.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 John Doe. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu if open
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+        
+        // Ticker tape animation
+        const createTickerTape = () => {
+            const tickerTape = document.querySelector('.ticker-tape');
+            const symbols = ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META', 'TSLA', 'JPM', 'BAC', 'GS', 'MS', 'V', 'MA', 'PYPL', 'BTC', 'ETH'];
+            
+            symbols.forEach(symbol => {
+                const item = document.createElement('div');
+                item.className = 'ticker-item';
+                
+                const change = (Math.random() * 5 - 2).toFixed(2);
+                const isPositive = change > 0;
+                
+                item.innerHTML = `
+                    <span class="ticker-symbol">${symbol}</span>
+                    <span class="ticker-price">$${(Math.random() * 1000 + 50).toFixed(2)}</span>
+                    <span class="ticker-change ${isPositive ? 'positive' : 'negative'}">
+                        ${isPositive ? '+' : ''}${change}%
+                    </span>
+                `;
+                
+                tickerTape.appendChild(item);
+            });
+            
+            // Clone the items for continuous scrolling
+            const items = document.querySelectorAll('.ticker-item');
+            items.forEach(item => {
+                const clone = item.cloneNode(true);
+                tickerTape.appendChild(clone);
+            });
+        };
+        
+        createTickerTape();
+    </script>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
